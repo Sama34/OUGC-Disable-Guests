@@ -186,7 +186,7 @@ function disable_guests_plappend($bool=false)
 			return $message;
 		}
 
-		flash_message($message);
+		flash_message($message, 'error');
 		admin_redirect('index.php?module=config-plugins');
 	}
 
@@ -204,7 +204,7 @@ function disable_guests_plappend($bool=false)
 			return $message;
 		}
 
-		flash_message($message);
+		flash_message($message, 'error');
 		admin_redirect('index.php?module=config-plugins');
 	}
 
