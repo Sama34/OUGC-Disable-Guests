@@ -46,7 +46,7 @@ function disable_guests_info()
 		'name'			=> 'OUGC Disable Guests',
 		'description'	=> $lang->disable_guests_d. (($message = disable_guests_plappend(true)) ? '<div id="flash_message" class="error">'.$message.'</div>' : ''),
 		'website'		=> 'http://mods.mybb.com/view/disable-guests',
-		'author'		=> 'Omar G.',
+		'author'		=> 'Omar Gonzalez',
 		'authorsite'	=> 'http://community.mybb.com/user-25096.html',
 		'version'		=> '1.1',
 		'guid'			=> '4b2cd540a65b03926a0e5bd9ab2feba6',
